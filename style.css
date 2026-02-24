@@ -1,0 +1,168 @@
+/* ================= GLOBAL ================= */
+
+body {
+  background: #0e0e0e;
+  color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  max-width: 1100px;
+  margin: 20px 0 60px 40px;
+  padding-right: 20px;
+}
+
+.page-title {
+  text-align: left;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+/* ================= SCOREBOARD ================= */
+
+.scoreboard-table {
+  width: 900px;
+  max-width: 100%;
+  border-collapse: collapse;
+  background: #1a1a1a;
+  border: 2px solid #333;
+}
+
+.scoreboard-table th {
+  background: #222;
+  padding: 16px 24px;
+  text-align: left;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid #333;
+}
+
+.scoreboard-table td {
+  padding: 16px 24px;
+  border-bottom: 1px solid #2a2a2a;
+  border-right: 1px solid #2a2a2a;
+}
+
+.scoreboard-table td:last-child,
+.scoreboard-table th:last-child {
+  border-right: none;
+}
+
+.team-red {
+  color: #ff4d4d;
+  font-weight: 800;
+}
+
+.team-blue {
+  color: #4da6ff;
+  font-weight: 800;
+}
+
+.momentum {
+  font-weight: 800;
+  color: #ffcc00;
+}
+
+/* Progress Bars */
+
+.bar-container {
+  background: #333;
+  height: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 250px;
+}
+
+.bar {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.bar.red { background: #ff4d4d; }
+.bar.blue { background: #4da6ff; }
+
+/* ================= FORMAT SECTIONS ================= */
+
+.format-section {
+  margin: 50px 0;
+  max-width: 900px;
+}
+
+.format-section h2 {
+  margin: 20px 0 12px 0;
+  letter-spacing: 2px;
+  color: #ffcc00;
+}
+
+/* ================= MATCH TABLE ================= */
+
+.match-table {
+  width: 900px;
+  max-width: 100%;
+  border-collapse: collapse;
+  background: #141414;
+  border: 2px solid #333;
+}
+
+.match-table td {
+  padding: 10px 14px;
+  border: 1px solid #2a2a2a;   /* GRIDLINES BACK */
+  font-size: 0.95em;
+}
+
+.match-toggle-cell {
+  background: #1f1f1f;
+  font-weight: 800;
+  padding: 12px 14px;
+  cursor: pointer;
+  border: 1px solid #333;
+}
+
+.toggle-arrow {
+  display: inline-block;
+  width: 22px;
+  color: #ffcc00;
+}
+
+.hole-cell {
+  width: 60px;
+  font-weight: 700;
+  color: #bbbbbb;
+}
+
+.match-divider {
+  height: 8px;
+  background: #0e0e0e;
+  border: none;
+}
+
+/* ================= SELECT ================= */
+
+select {
+  background: #1f1f1f;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 6px 8px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #666;
+}
+
+/* ================= GRAPH ================= */
+
+#leadChart {
+  background: #111;
+  border: 2px solid #333;
+}
+
+/* ================= TICKER ================= */
+
+.ticker {
+  margin-top: 16px;
+  font-weight: 800;
+  color: #ffcc00;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timber Court Simulator Cup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page-container">
+
+    <h1 class="page-title">Timber Court Simulator Cup</h1>
+
+    <!-- ================= SCOREBOARD ================= -->
+    <div class="scoreboard">
+      <table class="scoreboard-table">
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th>Total</th>
+            <th>Magic #</th>
+            <th>Differential</th>
+            <th>Progress</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="redName" class="team-red">The Bash Brothers</td>
+            <td id="redTotal">0</td>
+            <td id="redMagic">99.5</td>
+            <td id="differential">TIED</td>
+            <td>
+              <div class="bar-container">
+                <div id="redBar" class="bar red"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td id="blueName" class="team-blue">The Other Guys</td>
+            <td id="blueTotal">0</td>
+            <td id="blueMagic">99.5</td>
+            <td></td>
+            <td>
+              <div class="bar-container">
+                <div id="blueBar" class="bar blue"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="5" id="momentum" class="momentum">Even</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ================= CLINCH INFO ================= -->
+    <div id="clinchText" class="info-line"></div>
+
+    <!-- ================= MATCH FORMATS ================= -->
+    <div id="formatsContainer"></div>
+
+    <!-- ================= LEAD GRAPH ================= -->
+    <h2 class="section-title">📈 Lead Timeline</h2>
+    <div class="chart-container">
+      <canvas id="leadChart" width="1000" height="300"></canvas>
+    </div>
+
+    <!-- ================= TICKER / CHAOS ================= -->
+    <div id="ticker" class="ticker"></div>
+    <div id="chaosBanner" class="chaos-banner"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
