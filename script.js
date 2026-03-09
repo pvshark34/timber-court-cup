@@ -8,9 +8,9 @@ const MATCH_NAMES_BY_FORMAT = {
     "KIZE/PXM426 v AJM787/JLOSASSO",
     "BGROTHUS3/BUBBAEARL_2 v BONES/TSW3318"
   ],
-  "Foursomes - Royal Kent": ["Foursomes Match 1", "Foursomes Match 2"],
-  "Shamble - Tobacco Road": ["Shamble Match 1", "Shamble Match 2"],
-  "Four-Ball": ["Four-Ball Match 1", "Four-Ball Match 2"],
+  "Foursomes - Royal Kent": ["KIZE/BUBBAEARL_2 v BONES/TSW3318", "BGROTHUS3/PXM426 v AJM787/JLOSASSO"],
+  "Shamble - Tobacco Road": ["PXM426/BUBBAEARL_2 v BONES/TSW3318", "BGROTHUS3/KIZE v AJM787/JLOSASSO"],
+  "Four-Ball - Quail Hollow": ["Four-Ball Match 1", "Four-Ball Match 2"],
   "4v4 Scramble": ["4v4 Scramble"],
   "singles": ["Singles 1", "Singles 2", "Singles 3", "Singles 4"]
 };
