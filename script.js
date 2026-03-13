@@ -58,7 +58,7 @@ const SCORES = [
 
   // Shamble - Tobacco Road
   { red: 12.5, blue: 5.5 },
-  { red: 0, blue: 0 },
+  { red: 11.5, blue: 6.5 },
 
   // Four-Ball
   { red: 0, blue: 0 },
