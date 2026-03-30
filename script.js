@@ -17,8 +17,8 @@ const MATCH_NAMES_BY_FORMAT = {
     "BGROTHUS3/KIZE v AJM787/JLOSASSO"
   ],
   "Four-Ball - Quail Hollow": [
-    "Four-Ball Match 1",
-    "Four-Ball Match 2"
+    "PXM426/BUBBAEARL_2 v AJM787/BONES",
+    "BGROTHUS3/KIZE v JLOSASSO/TSW3318"
   ],
   "4v4 Scramble": [
     "4v4 Scramble"
@@ -37,7 +37,7 @@ const formats = [
   { type: "Foursomes - Royal Kent", matches: 2 },
   { type: "Shamble - Tobacco Road", matches: 2 },
   { type: "Four-Ball - Quail Hollow", matches: 2 },
-  { type: "4v4 Scramble", matches: 1 },
+  { type: "4v4 Scramble - Georgia Golf Club", matches: 1 },
   { type: "Singles", matches: 4 }
 ];
 
@@ -61,8 +61,8 @@ const SCORES = [
   { red: 11.5, blue: 6.5 },
 
   // Four-Ball
-  { red: 0, blue: 0 },
-  { red: 0, blue: 0 },
+  { red: 12, blue: 6 },
+  { red: 8, blue: 10 },
 
   // 4v4 Scramble
   { red: 0, blue: 0 },
