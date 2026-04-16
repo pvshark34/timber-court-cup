@@ -65,11 +65,11 @@ const SCORES = [
   { red: 8, blue: 10 },
 
   // 4v4 Scramble
-  { red: 0, blue: 0 },
+  { red: 8.5, blue: 9.5 },
 
   // singles
-  { red: 0, blue: 0 },
-  { red: 0, blue: 0 },
+  { red: 10, blue: 8 },
+  { red: 9, blue: 9 },
   { red: 0, blue: 0 },
   { red: 0, blue: 0 }
 ];
